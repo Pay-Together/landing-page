@@ -73,9 +73,20 @@ input, select, textarea {
 }
 
 .profile {
-    width: 170px;
+    width: 90%;
     border-radius: 50%;
 }
+
+.profile-text{
+    text-align: center;
+
+}
+	@media (min-width: 768px) {
+        .profile-text {
+            text-align: left;
+        }
+    }
+
 
 /* Page */
 
