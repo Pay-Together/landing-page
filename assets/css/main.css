@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .profile {
     width: 90%;
     border-radius: 50%;
