@@ -73,10 +73,16 @@ input, select, textarea {
 }
 
 video {
+	padding: 0 30px 10px 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+	@media (min-width: 768px) {
+		video {
+			padding: 0 30px;
+		}
+	}
 
 .profile {
     width: 80%;
@@ -85,14 +91,25 @@ video {
 
 .profile-text{
     text-align: center;
-
+	margin: 28px 0;
 }
 	@media (min-width: 768px) {
         .profile-text {
             text-align: left;
+			margin: 0;
         }
     }
 
+.our-name {
+	margin: 10px 0;
+	font-size: 2rem;
+}
+	@media (min-width: 768px) {
+        .our-name {
+            margin: 4px 0;
+			font-size: 1.75rem;
+        }
+    }
 
 /* Page */
 
@@ -2234,9 +2251,8 @@ video {
 			}
 
 			.panel > *.color3 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background-color: #ffe4b4;
+				background-color: #e37b7c;
 			}
 
 			.panel > *.color4 {
@@ -2751,9 +2767,8 @@ video {
 		}
 
 		.panel.color3 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
-			background-color: #ffe4b4;
+			background-color: #e37b7c;
 		}
 
 		.panel.color4 {
@@ -3236,9 +3251,8 @@ video {
 			}
 
 			.panel.color3 {
-				background-image: url("../../images/overlay.png"), linear-gradient(135deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
-				background-color: #ffe4b4;
+				background-color: #e37b7c !important;
 			}
 
 			.panel.color4 {
