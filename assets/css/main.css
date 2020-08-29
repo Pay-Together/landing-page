@@ -81,7 +81,7 @@ input, select, textarea {
     text-align: center;
 
 }
-	@media (min-width: 576px) {
+	@media (min-width: 768px) {
         .profile-text {
             text-align: left;
         }
