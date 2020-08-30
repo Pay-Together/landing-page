@@ -105,7 +105,7 @@
 												</div>
 											</div>
 											<ul class="actions" style="flex-direction: column;">
-												<li><input value="Subscribe to updates" class="button primary" style="width: 100%;" onclick="getElementById('submitted').innerHTML = 'Subscribed successfully! Stay tuned for updates!';"/></li>
+												<li><input value="Subscribe to updates" class="button primary" style="width: 100%;" onclick="getElementById('submitted').innerHTML = 'Subscribed successfully! Stay tuned for updates!'; setTimeout(() => { getElementById('submitted').innerHTML = '&nbsp;'; }, 5000);"/></li>
 												<li><p id="submitted" style="padding: 10px 0px 0 0; margin-bottom: 0;">&nbsp;</p></li>
 											</ul>
 										</form>
