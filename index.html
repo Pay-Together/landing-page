@@ -104,8 +104,9 @@
 													<textarea name="message" id="message" rows="4"></textarea>
 												</div>
 											</div>
-											<ul class="actions">
-												<li><input type="submit" value="Subscribe to updates" class="button primary" /></li>
+											<ul class="actions" style="flex-direction: column;">
+												<li><input value="Subscribe to updates" class="button primary" onclick="getElementById('submitted').innerHTML = 'Subscribed successfully! Stay tuned for updates!';"/></li>
+												<li><p id="submitted" style="padding: 10px 0px 0 0; margin-bottom: 0;">&nbsp;</p></li>
 											</ul>
 										</form>
 									</div>
