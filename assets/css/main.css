@@ -93,12 +93,45 @@ video {
     text-align: center;
 	margin: 28px 0;
 }
-	@media (min-width: 768px) {
+
+.logo-for-big {
+    display: none
+}
+
+.logo-for-small {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100% !important;
+}
+
+.color-variant {
+    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
+    background-color: #726193;
+} 
+
+    @media (min-width: 768px) {
         .profile-text {
             text-align: left;
 			margin: 0;
         }
+
+        .logo-for-small {
+            display: none
+        }
+
+        .logo-for-big {
+            display: flex
+        }
+
+
+        .color-variant {
+            background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+            background-size: 128px 128px, auto;
+        }
     }
+
 
 .our-name {
 	margin: 10px 0;
